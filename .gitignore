@@ -1,3 +1,4 @@
-**/auxil
+auxil/
+.idea/
 *.synctex.gz
 *.log
