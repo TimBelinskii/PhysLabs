@@ -10,10 +10,10 @@ plt.rc('text', usetex=True)
 plt.rc('font', family='serif')
 # plt.rcParams.update({'text.latex.unicode': True})
 data = pd.read_csv('data/3-5.csv', comment='#')
-x =
-xerr =
-y =
-yerr =
+# x =
+# xerr =
+# y =
+# yerr =
 
 # Plot
 popt, pcov = curve_fit(lambda x, a, b: a * x + b, data['z'], data['m'])
